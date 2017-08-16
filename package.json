@@ -8,8 +8,7 @@
     "example": "example"
   },
   "scripts": {
-    "test": "grunt test",
-    "postinstall": "./node_modules/.bin/bower install"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
@@ -37,11 +36,11 @@
     "load-grunt-tasks": "~3.5.2"
   },
   "dependencies": {
-    "bower": "~1.7.9",
     "@types/angular": "^1.6.7",
     "@types/intro.js": "^2.4.0",
     "grunt-ts": "^6.0.0-beta.11",
     "grunt-tslint": "^4.0.1",
+    "intro.js": "^2.6.0",
     "tslint": "^4.5.1",
     "typescript": "^2.2.1"
   }
